@@ -1,0 +1,52 @@
+Project #1 machine and compiler configuration
+Collected at: 2026-10-09 18:11:21 -04:00
+
+GCC:
+gcc.exe (Rev4, Built by MSYS2 project) 16.2.0
+
+Windows:
+
+
+Caption     : Microsoft Windows 11 Home
+Version     : 10.0.26300
+BuildNumber : 26300
+
+
+
+
+
+CPU:
+
+
+Name                      : Intel(R) Core(TM) i5-14400F
+NumberOfCores             : 10
+NumberOfLogicalProcessors : 16
+MaxClockSpeed             : 2500
+CurrentClockSpeed         : 2500
+
+
+
+
+
+RAM (capacity, configured speed, manufacturer):
+
+   Capacity ConfiguredClockSpeed Manufacturer  
+   -------- -------------------- ------------  
+17179869184                 4800 Team Group Inc
+17179869184                 4800 Team Group Inc
+
+
+
+
+Active power policy:
+Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)
+
+
+Measurement notes to verify manually:
+- Benchmark uses one thread and pins to Windows logical CPU 0 if possible.
+- Logical CPU 0 core type (P/E): NOT independently verified.
+- Turbo/frequency policy: dynamic unless externally controlled; record Windows power plan.
+- SMT state: inferred logical/physical counts, not independently verified in firmware.
+- Background work: document what else was running.
+- SIMD widths must be verified from compiler reports; native CPU flags are target-dependent.
+- Recorded TSC ticks per element are invariant TSC reference ticks, NOT true retired core cycles.

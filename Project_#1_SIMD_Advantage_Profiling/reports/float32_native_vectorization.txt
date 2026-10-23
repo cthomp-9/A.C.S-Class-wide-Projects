@@ -1,0 +1,532 @@
+src\simd_benchmark.c:77:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:77:23: optimized:  loop versioned for vectorization because of possible aliasing
+src\simd_benchmark.c:77:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4
+src\simd_benchmark.c:77:23: missed: couldn't vectorize loop
+src\simd_benchmark.c:78:26: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const value_t
+src\simd_benchmark.c:75:12: note: vectorized 1 loops in function.
+src\simd_benchmark.c:75:12: note: ***** Analysis failed with vector mode V8SF
+src\simd_benchmark.c:75:12: note: ***** The result for vector mode V32QI would be the same
+src\simd_benchmark.c:75:12: note: ***** Re-trying analysis with vector mode V16QI
+src\simd_benchmark.c:75:12: note: ***** Analysis failed with vector mode V16QI
+src\simd_benchmark.c:75:12: note: ***** Re-trying analysis with vector mode V8QI
+src\simd_benchmark.c:75:12: note: ***** Analysis failed with vector mode V8QI
+src\simd_benchmark.c:75:12: note: ***** Re-trying analysis with vector mode V4QI
+src\simd_benchmark.c:75:12: note: ***** Analysis failed with vector mode V4QI
+src\simd_benchmark.c:83:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:83:23: optimized:  loop versioned for vectorization because of possible aliasing
+src\simd_benchmark.c:83:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4
+src\simd_benchmark.c:83:23: missed: couldn't vectorize loop
+src\simd_benchmark.c:84:24: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const value_t
+src\simd_benchmark.c:81:12: note: vectorized 1 loops in function.
+src\simd_benchmark.c:81:12: note: ***** Analysis failed with vector mode V8SF
+src\simd_benchmark.c:81:12: note: ***** The result for vector mode V32QI would be the same
+src\simd_benchmark.c:81:12: note: ***** Re-trying analysis with vector mode V16QI
+src\simd_benchmark.c:81:12: note: ***** Analysis failed with vector mode V16QI
+src\simd_benchmark.c:81:12: note: ***** Re-trying analysis with vector mode V8QI
+src\simd_benchmark.c:81:12: note: ***** Analysis failed with vector mode V8QI
+src\simd_benchmark.c:81:12: note: ***** Re-trying analysis with vector mode V4QI
+src\simd_benchmark.c:81:12: note: ***** Analysis failed with vector mode V4QI
+src\simd_benchmark.c:90:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:90:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4
+src\simd_benchmark.c:90:23: missed: couldn't vectorize loop
+src\simd_benchmark.c:91:17: missed: not vectorized: no vectype for stmt: _4 = *_3;
+ scalar_type: const value_t
+src\simd_benchmark.c:87:15: note: vectorized 1 loops in function.
+src\simd_benchmark.c:87:15: note: ***** Analysis failed with vector mode V8SF
+src\simd_benchmark.c:87:15: note: ***** The result for vector mode V32QI would be the same
+src\simd_benchmark.c:87:15: note: ***** Re-trying analysis with vector mode V16QI
+src\simd_benchmark.c:87:15: note: ***** Analysis failed with vector mode V16QI
+src\simd_benchmark.c:87:15: note: ***** Re-trying analysis with vector mode V8QI
+src\simd_benchmark.c:87:15: note: ***** Analysis failed with vector mode V8QI
+src\simd_benchmark.c:87:15: note: ***** Re-trying analysis with vector mode V4QI
+src\simd_benchmark.c:87:15: note: ***** Analysis failed with vector mode V4QI
+src\simd_benchmark.c:156:28: missed: couldn't vectorize loop
+src\simd_benchmark.c:156:28: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: optimized:  loop versioned for vectorization to enhance alignment
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: optimized:  loop versioned for vectorization to enhance alignment
+src\simd_benchmark.c:161:30: missed: couldn't vectorize loop
+src\simd_benchmark.c:162:17: missed: statement clobbers memory: saxpy_kernel (_32, _34, 1.0e+0, n_1(D), 1);
+src\simd_benchmark.c:166:30: missed: couldn't vectorize loop
+src\simd_benchmark.c:166:44: missed: statement clobbers memory: multiply_kernel (_32, _34, _31, n_1(D), 1);
+src\simd_benchmark.c:168:30: missed: couldn't vectorize loop
+src\simd_benchmark.c:169:21: missed: statement clobbers memory: sum_66 = dot_kernel (_32, _34, n_1(D), 1);
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: optimized:  loop versioned for vectorization to enhance alignment
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: optimized:  loop versioned for vectorization to enhance alignment
+src\simd_benchmark.c:134:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:134:23: optimized:  loop versioned for vectorization because of possible aliasing
+src\simd_benchmark.c:134:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4
+src\simd_benchmark.c:121:12: note: vectorized 5 loops in function.
+src\simd_benchmark.c:98:18: missed: statement clobbers memory: base_7 = malloc (total_6);
+src\simd_benchmark.c:98:18: missed: statement clobbers memory: base_16 = malloc (total_6);
+src\simd_benchmark.c:98:18: missed: statement clobbers memory: base_24 = malloc (total_6);
+src\simd_benchmark.c:121:12: missed: statement clobbers memory: __builtin_trap ();
+src\simd_benchmark.c:149:13: missed: statement clobbers memory: sum_52 = dot_kernel (_32, _34, n_1(D), 1);
+src\simd_benchmark.c:147:9: missed: statement clobbers memory: multiply_kernel (_32, _34, _31, n_1(D), 1);
+src\simd_benchmark.c:144:9: missed: statement clobbers memory: saxpy_kernel (_32, _34, 1.0e+0, n_1(D), 1);
+src\simd_benchmark.c:145:9: missed: statement clobbers memory: saxpy_kernel (_32, _34, -1.0e+0, n_1(D), 1);
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _195 = GetCurrentThread ();
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _196 = QueryThreadCycleTime (_195, &count);
+src\simd_benchmark.c:47:34: missed: statement clobbers memory: QueryPerformanceFrequency (&frequency);
+src\simd_benchmark.c:48:5: missed: statement clobbers memory: QueryPerformanceCounter (&counter);
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/emmintrin.h:1557:3: missed: statement clobbers memory: __builtin_ia32_lfence ();
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/ia32intrin.h:114:10: missed: statement clobbers memory: _59 = __builtin_ia32_rdtsc ();
+src\simd_benchmark.c:169:21: missed: statement clobbers memory: sum_66 = dot_kernel (_32, _34, n_1(D), 1);
+src\simd_benchmark.c:170:30: missed: not vectorized: volatile type: checksum_sink ={v} _67;
+src\simd_benchmark.c:166:44: missed: statement clobbers memory: multiply_kernel (_32, _34, _31, n_1(D), 1);
+src\simd_benchmark.c:162:17: missed: statement clobbers memory: saxpy_kernel (_32, _34, 1.0e+0, n_1(D), 1);
+src\simd_benchmark.c:163:17: missed: statement clobbers memory: saxpy_kernel (_32, _34, -1.0e+0, n_1(D), 1);
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/emmintrin.h:1557:3: missed: statement clobbers memory: __builtin_ia32_lfence ();
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/ia32intrin.h:114:10: missed: statement clobbers memory: _71 = __builtin_ia32_rdtsc ();
+src\simd_benchmark.c:47:34: missed: statement clobbers memory: QueryPerformanceFrequency (&frequency);
+src\simd_benchmark.c:48:5: missed: statement clobbers memory: QueryPerformanceCounter (&counter);
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _211 = GetCurrentThread ();
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _212 = QueryThreadCycleTime (_211, &count);
+src\simd_benchmark.c:181:23: missed: not vectorized: volatile type: checksum_sink.11_87 ={v} checksum_sink;
+src\simd_benchmark.c:181:23: missed: not vectorized: volatile type: checksum_sink ={v} _89;
+src\simd_benchmark.c:186:9: missed: statement clobbers memory: fprintf (out_105(D), "%s,%s,%s,%s,%zu,%zu,%d,%zu,%d,%.9f,%.6f,%.6f,PASS\n", mode_106(D), build_107(D), "float32", kernel_name_56(D), n_1(D), 1, _104, pairs_62, trial_133, ms_per_call_95, tsc_per_element_100, cycles_per_element_108);
+src\simd_benchmark.c:190:5: missed: statement clobbers memory: printf ("%s %s %-10s N=%-9zu stride=%zu offset=%d: PASS\n", build_107(D), "float32", kernel_name_56(D), n_1(D), 1, _104);
+src\simd_benchmark.c:192:5: missed: statement clobbers memory: free (base_7);
+src\simd_benchmark.c:192:14: missed: statement clobbers memory: free (base_16);
+src\simd_benchmark.c:192:23: missed: statement clobbers memory: free (base_24);
+src\simd_benchmark.c:177:13: missed: statement clobbers memory: _76 = __acrt_iob_func (2);
+src\simd_benchmark.c:177:13: missed: statement clobbers memory: fprintf (_76, "FAIL: %s N=%zu stride=%zu trial=%d\n", kernel_name_56(D), n_1(D), 1, trial_269);
+src\simd_benchmark.c:178:13: missed: statement clobbers memory: free (base_7);
+src\simd_benchmark.c:178:22: missed: statement clobbers memory: free (base_16);
+src\simd_benchmark.c:178:31: missed: statement clobbers memory: free (base_24);
+src\simd_benchmark.c:152:9: missed: statement clobbers memory: _55 = __acrt_iob_func (2);
+src\simd_benchmark.c:152:9: missed: statement clobbers memory: fprintf (_55, "FAIL (warmup): %s N=%zu stride=%zu offset=%d\n", kernel_name_56(D), n_1(D), 1, shift_11(D));
+src\simd_benchmark.c:153:9: missed: statement clobbers memory: free (base_7);
+src\simd_benchmark.c:153:18: missed: statement clobbers memory: free (base_16);
+src\simd_benchmark.c:153:27: missed: statement clobbers memory: free (base_24);
+src\simd_benchmark.c:130:9: missed: statement clobbers memory: _38 = __acrt_iob_func (2);
+src\simd_benchmark.c:130:9: missed: statement clobbers memory: fprintf (_38, "allocation failure for N=%zu stride=%zu\n", n_1(D), 1);
+src\simd_benchmark.c:131:9: missed: statement clobbers memory: free (base_7);
+src\simd_benchmark.c:131:19: missed: statement clobbers memory: free (base_16);
+src\simd_benchmark.c:131:29: missed: statement clobbers memory: free (base_24);
+src\simd_benchmark.c:121:12: note: ***** Analysis succeeded with vector mode V8SF
+src\simd_benchmark.c:121:12: note: SLPing BB part
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4bec58 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: xorptrs0_1_483 = addr2int0_481 ^ addr2int1_482;
+src\simd_benchmark.c:121:12: note: 	stmt 0 xorptrs0_1_483 = addr2int0_481 ^ addr2int1_482;
+src\simd_benchmark.c:121:12: note: 	stmt 1 xorptrs1_2_485 = addr2int1_482 ^ addr2int2_484;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4bed98 000000001b4bee38
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bed98 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int0_481, addr2int2_484 }
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bee38 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int1_482, addr2int1_482 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 0:
+  Vector cost: 60
+  Scalar cost: 12
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4bf158 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: addr2int0_408 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 0 addr2int0_408 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 1 addr2int1_409 = (signed long long) _34;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4bf1f8
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bf1f8 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:121:12: note: 	{ _32, _34 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 0:
+  Vector cost: 40
+  Scalar cost: 4
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4bf6f8 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: xorptrs0_1_326 = addr2int0_324 ^ addr2int1_325;
+src\simd_benchmark.c:121:12: note: 	stmt 0 xorptrs0_1_326 = addr2int0_324 ^ addr2int1_325;
+src\simd_benchmark.c:121:12: note: 	stmt 1 xorptrs1_2_328 = addr2int1_325 ^ addr2int2_327;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4bf838 000000001b4bf8d8
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bf838 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int0_324, addr2int2_327 }
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bf8d8 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int1_325, addr2int1_325 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 1:
+  Vector cost: 60
+  Scalar cost: 12
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4bfbf8 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: addr2int0_287 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 0 addr2int0_287 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 1 addr2int1_271 = (signed long long) _34;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4bfc98
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bfc98 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:121:12: note: 	{ _32, _34 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 1:
+  Vector cost: 40
+  Scalar cost: 4
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: ***** The result for vector mode V32QI would be the same
+src\simd_benchmark.c:121:12: note: ***** Re-trying analysis with vector mode V16QI
+src\simd_benchmark.c:121:12: note: ***** Analysis succeeded with vector mode V16QI
+src\simd_benchmark.c:121:12: note: SLPing BB part
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4be618 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: xorptrs0_1_483 = addr2int0_481 ^ addr2int1_482;
+src\simd_benchmark.c:121:12: note: 	stmt 0 xorptrs0_1_483 = addr2int0_481 ^ addr2int1_482;
+src\simd_benchmark.c:121:12: note: 	stmt 1 xorptrs1_2_485 = addr2int1_482 ^ addr2int2_484;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4be4d8 000000001b4be118
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4be4d8 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int0_481, addr2int2_484 }
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4be118 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int1_482, addr2int1_482 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 0:
+  Vector cost: 60
+  Scalar cost: 12
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4bf518 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: addr2int0_408 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 0 addr2int0_408 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 1 addr2int1_409 = (signed long long) _34;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4bf338
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bf338 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:121:12: note: 	{ _32, _34 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 0:
+  Vector cost: 40
+  Scalar cost: 4
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4bfab8 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: xorptrs0_1_326 = addr2int0_324 ^ addr2int1_325;
+src\simd_benchmark.c:121:12: note: 	stmt 0 xorptrs0_1_326 = addr2int0_324 ^ addr2int1_325;
+src\simd_benchmark.c:121:12: note: 	stmt 1 xorptrs1_2_328 = addr2int1_325 ^ addr2int2_327;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4be938 000000001b4bf298
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4be938 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int0_324, addr2int2_327 }
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bf298 (max_nunits=1, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: 	{ addr2int1_325, addr2int1_325 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 1:
+  Vector cost: 60
+  Scalar cost: 12
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: Costing subgraph: 
+src\simd_benchmark.c:121:12: note: node 000000001b4beb18 (max_nunits=2, refcnt=1) vector(2) signed long long
+src\simd_benchmark.c:121:12: note: op template: addr2int0_287 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 0 addr2int0_287 = (signed long long) _32;
+src\simd_benchmark.c:121:12: note: 	stmt 1 addr2int1_271 = (signed long long) _34;
+src\simd_benchmark.c:121:12: note: 	children 000000001b4bf478
+src\simd_benchmark.c:121:12: note: node (external) 000000001b4bf478 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:121:12: note: 	{ _32, _34 }
+src\simd_benchmark.c:121:12: note: Cost model analysis: 
+src\simd_benchmark.c:121:12: note: Cost model analysis for part in loop 1:
+  Vector cost: 40
+  Scalar cost: 4
+src\simd_benchmark.c:121:12: missed: not vectorized: vectorization is not profitable.
+src\simd_benchmark.c:121:12: note: ***** Re-trying analysis with vector mode V8QI
+src\simd_benchmark.c:121:12: note: ***** Analysis failed with vector mode V8QI
+src\simd_benchmark.c:121:12: note: ***** Re-trying analysis with vector mode V4QI
+src\simd_benchmark.c:121:12: note: ***** Analysis failed with vector mode V4QI
+src\simd_benchmark.c:218:56: missed: couldn't vectorize loop
+src\simd_benchmark.c:218:56: missed: not vectorized: inner-loop count not invariant.
+src\simd_benchmark.c:219:30: missed: couldn't vectorize loop
+src\simd_benchmark.c:220:20: missed: statement clobbers memory: ok_129 = run_case.constprop (out_86, mode_76, build_77, _12, k_423, pretmp_277, 0);
+src\simd_benchmark.c:223:56: missed: couldn't vectorize loop
+src\simd_benchmark.c:223:56: missed: not vectorized: multiple nested loops.
+src\simd_benchmark.c:224:39: missed: couldn't vectorize loop
+src\simd_benchmark.c:224:39: missed: not vectorized: inner-loop count not invariant.
+src\simd_benchmark.c:225:34: missed: couldn't vectorize loop
+src\simd_benchmark.c:226:24: missed: statement clobbers memory: ok_115 = run_case.constprop (out_86, mode_76, build_77, _21, k_426, pretmp_307, shift_425);
+src\simd_benchmark.c:230:56: missed: couldn't vectorize loop
+src\simd_benchmark.c:230:56: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+src\simd_benchmark.c:231:64: missed: couldn't vectorize loop
+src\simd_benchmark.c:231:64: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+src\simd_benchmark.c:232:34: missed: couldn't vectorize loop
+src\simd_benchmark.c:232:34: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+src\simd_benchmark.c:156:28: missed: couldn't vectorize loop
+src\simd_benchmark.c:156:28: missed: not vectorized: loop nest containing two or more consecutive inner loops cannot be vectorized
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: missed: couldn't vectorize loop
+src\simd_benchmark.c:115:14: missed: not vectorized: no vectype for stmt: _213 = *_421;
+ scalar_type: const value_t
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: optimized:  loop versioned for vectorization to enhance alignment
+src\simd_benchmark.c:113:23: missed: couldn't vectorize loop
+src\simd_benchmark.c:115:14: missed: not vectorized: no vectype for stmt: _282 = *_281;
+ scalar_type: const value_t
+src\simd_benchmark.c:161:30: missed: couldn't vectorize loop
+src\simd_benchmark.c:162:17: missed: statement clobbers memory: saxpy_kernel (_168, _170, 1.0e+0, pretmp_403, pretmp_413);
+src\simd_benchmark.c:166:30: missed: couldn't vectorize loop
+src\simd_benchmark.c:166:44: missed: statement clobbers memory: multiply_kernel (_168, _170, _167, pretmp_403, pretmp_413);
+src\simd_benchmark.c:168:30: missed: couldn't vectorize loop
+src\simd_benchmark.c:169:21: missed: statement clobbers memory: sum_200 = dot_kernel (_168, _170, pretmp_403, pretmp_413);
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: missed: couldn't vectorize loop
+src\simd_benchmark.c:115:14: missed: not vectorized: no vectype for stmt: _32 = *_31;
+ scalar_type: const value_t
+src\simd_benchmark.c:113:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:113:23: optimized:  loop versioned for vectorization to enhance alignment
+src\simd_benchmark.c:113:23: missed: couldn't vectorize loop
+src\simd_benchmark.c:115:14: missed: not vectorized: no vectype for stmt: _250 = *_249;
+ scalar_type: const value_t
+src\simd_benchmark.c:134:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+src\simd_benchmark.c:134:23: optimized:  loop versioned for vectorization because of possible aliasing
+src\simd_benchmark.c:134:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4
+src\simd_benchmark.c:196:5: note: vectorized 5 loops in function.
+src\simd_benchmark.c:202:9: missed: statement clobbers memory: _3 = strcmp (mode_76, "baseline");
+src\simd_benchmark.c:202:36: missed: statement clobbers memory: _4 = strcmp (mode_76, "alignment");
+src\simd_benchmark.c:202:64: missed: statement clobbers memory: _5 = strcmp (mode_76, "stride");
+src\simd_benchmark.c:207:10: missed: statement clobbers memory: _7 = GetCurrentThread ();
+src\simd_benchmark.c:207:10: missed: statement clobbers memory: _8 = SetThreadAffinityMask (_7, 1);
+src\simd_benchmark.c:208:9: missed: statement clobbers memory: _9 = __acrt_iob_func (2);
+src\simd_benchmark.c:208:9: missed: statement clobbers memory: __builtin_fwrite ("Warning: failed to pin to logical CPU 0\n", 1, 40, _9);
+src\simd_benchmark.c:211:15: missed: statement clobbers memory: out_86 = fopen (path_78, "w");
+src\simd_benchmark.c:213:5: missed: statement clobbers memory: __builtin_fwrite ("Mode,Build,Type,Kernel,N,Stride,Offset_bytes,Iteration_pairs,Trial,Time_ms,TSC_ticks_per_element,Thread_cycles_per_element,Correct\n", 1, 131, out_86);
+src\simd_benchmark.c:216:10: missed: statement clobbers memory: _10 = strcmp (mode_76, "baseline");
+src\simd_benchmark.c:221:17: missed: statement clobbers memory: _19 = strcmp (mode_76, "alignment");
+src\simd_benchmark.c:98:18: missed: statement clobbers memory: base_144 = malloc (_46);
+src\simd_benchmark.c:98:18: missed: statement clobbers memory: base_152 = malloc (_46);
+src\simd_benchmark.c:98:18: missed: statement clobbers memory: base_160 = malloc (_46);
+src\simd_benchmark.c:149:13: missed: statement clobbers memory: sum_187 = dot_kernel (_168, _170, pretmp_403, pretmp_413);
+src\simd_benchmark.c:147:9: missed: statement clobbers memory: multiply_kernel (_168, _170, _167, pretmp_403, pretmp_413);
+src\simd_benchmark.c:144:9: missed: statement clobbers memory: saxpy_kernel (_168, _170, 1.0e+0, pretmp_403, pretmp_413);
+src\simd_benchmark.c:145:9: missed: statement clobbers memory: saxpy_kernel (_168, _170, -1.0e+0, pretmp_403, pretmp_413);
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _273 = GetCurrentThread ();
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _274 = QueryThreadCycleTime (_273, &count);
+src\simd_benchmark.c:47:34: missed: statement clobbers memory: QueryPerformanceFrequency (&frequency);
+src\simd_benchmark.c:48:5: missed: statement clobbers memory: QueryPerformanceCounter (&counter);
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/emmintrin.h:1557:3: missed: statement clobbers memory: __builtin_ia32_lfence ();
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/ia32intrin.h:114:10: missed: statement clobbers memory: _193 = __builtin_ia32_rdtsc ();
+src\simd_benchmark.c:169:21: missed: statement clobbers memory: sum_200 = dot_kernel (_168, _170, pretmp_403, pretmp_413);
+src\simd_benchmark.c:170:30: missed: not vectorized: volatile type: checksum_sink ={v} _201;
+src\simd_benchmark.c:166:44: missed: statement clobbers memory: multiply_kernel (_168, _170, _167, pretmp_403, pretmp_413);
+src\simd_benchmark.c:162:17: missed: statement clobbers memory: saxpy_kernel (_168, _170, 1.0e+0, pretmp_403, pretmp_413);
+src\simd_benchmark.c:163:17: missed: statement clobbers memory: saxpy_kernel (_168, _170, -1.0e+0, pretmp_403, pretmp_413);
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/emmintrin.h:1557:3: missed: statement clobbers memory: __builtin_ia32_lfence ();
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/ia32intrin.h:114:10: missed: statement clobbers memory: _205 = __builtin_ia32_rdtsc ();
+src\simd_benchmark.c:47:34: missed: statement clobbers memory: QueryPerformanceFrequency (&frequency);
+src\simd_benchmark.c:48:5: missed: statement clobbers memory: QueryPerformanceCounter (&counter);
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _289 = GetCurrentThread ();
+src\simd_benchmark.c:69:9: missed: statement clobbers memory: _290 = QueryThreadCycleTime (_289, &count);
+src\simd_benchmark.c:181:23: missed: not vectorized: volatile type: checksum_sink.11_221 ={v} checksum_sink;
+src\simd_benchmark.c:181:23: missed: not vectorized: volatile type: checksum_sink ={v} _223;
+src\simd_benchmark.c:186:9: missed: statement clobbers memory: fprintf (out_86, "%s,%s,%s,%s,%zu,%zu,%d,%zu,%d,%.9f,%.6f,%.6f,PASS\n", mode_76, build_77, "float32", _33, pretmp_403, pretmp_413, 0, pairs_196, trial_450, ms_per_call_229, tsc_per_element_234, cycles_per_element_239);
+src\simd_benchmark.c:190:5: missed: statement clobbers memory: printf ("%s %s %-10s N=%-9zu stride=%zu offset=%d: PASS\n", build_77, "float32", _33, pretmp_403, pretmp_413, 0);
+src\simd_benchmark.c:192:5: missed: statement clobbers memory: free (base_144);
+src\simd_benchmark.c:192:14: missed: statement clobbers memory: free (base_152);
+src\simd_benchmark.c:192:23: missed: statement clobbers memory: free (base_160);
+src\simd_benchmark.c:177:13: missed: statement clobbers memory: _210 = __acrt_iob_func (2);
+src\simd_benchmark.c:177:13: missed: statement clobbers memory: fprintf (_210, "FAIL: %s N=%zu stride=%zu trial=%d\n", _43, pretmp_403, pretmp_166, trial_165);
+src\simd_benchmark.c:178:13: missed: statement clobbers memory: free (base_38);
+src\simd_benchmark.c:178:22: missed: statement clobbers memory: free (base_35);
+src\simd_benchmark.c:178:31: missed: statement clobbers memory: free (base_26);
+src\simd_benchmark.c:152:9: missed: statement clobbers memory: _190 = __acrt_iob_func (2);
+src\simd_benchmark.c:152:9: missed: statement clobbers memory: fprintf (_190, "FAIL (warmup): %s N=%zu stride=%zu offset=%d\n", _44, pretmp_403, pretmp_357, 0);
+src\simd_benchmark.c:153:9: missed: statement clobbers memory: free (base_39);
+src\simd_benchmark.c:153:18: missed: statement clobbers memory: free (base_36);
+src\simd_benchmark.c:153:27: missed: statement clobbers memory: free (base_29);
+src\simd_benchmark.c:130:9: missed: statement clobbers memory: _174 = __acrt_iob_func (2);
+src\simd_benchmark.c:130:9: missed: statement clobbers memory: fprintf (_174, "allocation failure for N=%zu stride=%zu\n", pretmp_403, pretmp_381);
+src\simd_benchmark.c:131:9: missed: statement clobbers memory: free (base_41);
+src\simd_benchmark.c:131:19: missed: statement clobbers memory: free (base_37);
+src\simd_benchmark.c:131:29: missed: statement clobbers memory: free (base_34);
+src\simd_benchmark.c:226:24: missed: statement clobbers memory: ok_115 = run_case.constprop (out_86, mode_76, build_77, _21, k_426, pretmp_307, shift_425);
+src\simd_benchmark.c:220:20: missed: statement clobbers memory: ok_129 = run_case.constprop (out_86, mode_76, build_77, _12, k_423, pretmp_277, 0);
+src\simd_benchmark.c:235:5: missed: statement clobbers memory: fclose (out_86);
+src\simd_benchmark.c:236:13: missed: statement clobbers memory: printf ("Saved %s (raw trials, all three kernels)\n", path_78);
+src\simd_benchmark.c:212:17: missed: statement clobbers memory: perror (path_78);
+src\simd_benchmark.c:203:9: missed: statement clobbers memory: _6 = __acrt_iob_func (2);
+src\simd_benchmark.c:203:9: missed: statement clobbers memory: fprintf (_6, "Invalid mode: %s\n", mode_76);
+src\simd_benchmark.c:198:9: missed: statement clobbers memory: _2 = __acrt_iob_func (2);
+src\simd_benchmark.c:198:9: missed: statement clobbers memory: fprintf (_2, "Usage: %s baseline|alignment|stride scalar|default|native output.csv\n", _1);
+src\simd_benchmark.c:217:16: note: ***** Analysis succeeded with vector mode V4DI
+src\simd_benchmark.c:217:16: note: SLPing BB part
+src\simd_benchmark.c:214:17: note: Costing subgraph: 
+src\simd_benchmark.c:214:17: note: node 000000001b962a28 (max_nunits=2, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:214:17: note: op template: names[0] = "SAXPY";
+src\simd_benchmark.c:214:17: note: 	stmt 0 names[0] = "SAXPY";
+src\simd_benchmark.c:214:17: note: 	stmt 1 names[1] = "Multiply";
+src\simd_benchmark.c:214:17: note: 	children 000000001b962ac8
+src\simd_benchmark.c:214:17: note: node (external) 000000001b962ac8 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:214:17: note: 	{ "SAXPY", "Multiply" }
+src\simd_benchmark.c:214:17: note: Cost model analysis: 
+src\simd_benchmark.c:214:17: note: Cost model analysis for part in loop 0:
+  Vector cost: 20
+  Scalar cost: 32
+src\simd_benchmark.c:228:16: note: Costing subgraph: 
+src\simd_benchmark.c:228:16: note: node 000000001b962c08 (max_nunits=2, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:228:16: note: op template: sizes[0] = 16384;
+src\simd_benchmark.c:228:16: note: 	stmt 0 sizes[0] = 16384;
+src\simd_benchmark.c:228:16: note: 	stmt 1 sizes[1] = 262144;
+src\simd_benchmark.c:228:16: note: 	children 000000001b962ca8
+src\simd_benchmark.c:228:16: note: node (constant) 000000001b962ca8 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:228:16: note: 	{ 16384, 262144 }
+src\simd_benchmark.c:228:16: note: Cost model analysis: 
+src\simd_benchmark.c:228:16: note: Cost model analysis for part in loop 0:
+  Vector cost: 32
+  Scalar cost: 32
+src\simd_benchmark.c:229:16: note: Costing subgraph: 
+src\simd_benchmark.c:229:16: note: node 000000001b962d48 (max_nunits=4, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:229:16: note: op template: strides[0] = 1;
+src\simd_benchmark.c:229:16: note: 	stmt 0 strides[0] = 1;
+src\simd_benchmark.c:229:16: note: 	stmt 1 strides[1] = 2;
+src\simd_benchmark.c:229:16: note: 	stmt 2 strides[2] = 4;
+src\simd_benchmark.c:229:16: note: 	stmt 3 strides[3] = 8;
+src\simd_benchmark.c:229:16: note: 	children 000000001b962de8
+src\simd_benchmark.c:229:16: note: node (constant) 000000001b962de8 (max_nunits=1, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:229:16: note: 	{ 1, 2, 4, 8 }
+src\simd_benchmark.c:229:16: note: Cost model analysis: 
+src\simd_benchmark.c:229:16: note: Cost model analysis for part in loop 0:
+  Vector cost: 40
+  Scalar cost: 64
+src\simd_benchmark.c:222:16: note: Costing subgraph: 
+src\simd_benchmark.c:222:16: note: node 000000001b962f28 (max_nunits=4, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:222:16: note: op template: sizes[0] = 16384;
+src\simd_benchmark.c:222:16: note: 	stmt 0 sizes[0] = 16384;
+src\simd_benchmark.c:222:16: note: 	stmt 1 sizes[1] = 16387;
+src\simd_benchmark.c:222:16: note: 	stmt 2 sizes[2] = 1048576;
+src\simd_benchmark.c:222:16: note: 	stmt 3 sizes[3] = 1048579;
+src\simd_benchmark.c:222:16: note: 	children 000000001b962fc8
+src\simd_benchmark.c:222:16: note: node (constant) 000000001b962fc8 (max_nunits=1, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:222:16: note: 	{ 16384, 16387, 1048576, 1048579 }
+src\simd_benchmark.c:222:16: note: Cost model analysis: 
+src\simd_benchmark.c:222:16: note: Cost model analysis for part in loop 0:
+  Vector cost: 40
+  Scalar cost: 64
+src\simd_benchmark.c:222:16: note: Costing subgraph: 
+src\simd_benchmark.c:222:16: note: node 000000001b963068 (max_nunits=2, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:222:16: note: op template: sizes[4] = 4194304;
+src\simd_benchmark.c:222:16: note: 	stmt 0 sizes[4] = 4194304;
+src\simd_benchmark.c:222:16: note: 	stmt 1 sizes[5] = 4194307;
+src\simd_benchmark.c:222:16: note: 	children 000000001b963108
+src\simd_benchmark.c:222:16: note: node (constant) 000000001b963108 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:222:16: note: 	{ 4194304, 4194307 }
+src\simd_benchmark.c:222:16: note: Cost model analysis: 
+src\simd_benchmark.c:222:16: note: Cost model analysis for part in loop 0:
+  Vector cost: 32
+  Scalar cost: 32
+src\simd_benchmark.c:217:16: note: Costing subgraph: 
+src\simd_benchmark.c:217:16: note: node 000000001b963248 (max_nunits=4, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:217:16: note: op template: sizes[0] = 256;
+src\simd_benchmark.c:217:16: note: 	stmt 0 sizes[0] = 256;
+src\simd_benchmark.c:217:16: note: 	stmt 1 sizes[1] = 1024;
+src\simd_benchmark.c:217:16: note: 	stmt 2 sizes[2] = 4096;
+src\simd_benchmark.c:217:16: note: 	stmt 3 sizes[3] = 16384;
+src\simd_benchmark.c:217:16: note: 	stmt 4 sizes[4] = 65536;
+src\simd_benchmark.c:217:16: note: 	stmt 5 sizes[5] = 262144;
+src\simd_benchmark.c:217:16: note: 	stmt 6 sizes[6] = 1048576;
+src\simd_benchmark.c:217:16: note: 	stmt 7 sizes[7] = 4194304;
+src\simd_benchmark.c:217:16: note: 	children 000000001b9632e8
+src\simd_benchmark.c:217:16: note: node (constant) 000000001b9632e8 (max_nunits=1, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:217:16: note: 	{ 256, 1024, 4096, 16384, 65536, 262144, 1048576, 4194304 }
+src\simd_benchmark.c:217:16: note: Cost model analysis: 
+src\simd_benchmark.c:217:16: note: Cost model analysis for part in loop 0:
+  Vector cost: 80
+  Scalar cost: 128
+src\simd_benchmark.c:217:16: note: Basic block will be vectorized using SLP
+src\simd_benchmark.c:214:17: optimized: basic block part vectorized using 16 byte vectors
+src\simd_benchmark.c:214:17: note: Vectorizing SLP tree:
+src\simd_benchmark.c:214:17: note: node 000000001b962a28 (max_nunits=2, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:214:17: note: op template: names[0] = "SAXPY";
+src\simd_benchmark.c:214:17: note: 	stmt 0 names[0] = "SAXPY";
+src\simd_benchmark.c:214:17: note: 	stmt 1 names[1] = "Multiply";
+src\simd_benchmark.c:214:17: note: 	children 000000001b962ac8
+src\simd_benchmark.c:214:17: note: node (external) 000000001b962ac8 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:214:17: note: 	{ "SAXPY", "Multiply" }
+src\simd_benchmark.c:214:17: note: ------>vectorizing SLP node starting from: names[0] = "SAXPY";
+src\simd_benchmark.c:214:17: note: transform store.
+src\simd_benchmark.c:214:17: note: create vector_type-pointer variable to type: vector(2) long long unsigned int  vectorizing a pointer ref: names[0]
+src\simd_benchmark.c:214:17: note: created &names[0]
+src\simd_benchmark.c:214:17: note: add new stmt: MEM <vector(2) long long unsigned int> [(const char * *)&names] = _777;
+src\simd_benchmark.c:214:17: note: vectorizing stmts using SLP.
+src\simd_benchmark.c:228:16: optimized: basic block part vectorized using 16 byte vectors
+src\simd_benchmark.c:228:16: note: Vectorizing SLP tree:
+src\simd_benchmark.c:228:16: note: node 000000001b962c08 (max_nunits=2, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:228:16: note: op template: sizes[0] = 16384;
+src\simd_benchmark.c:228:16: note: 	stmt 0 sizes[0] = 16384;
+src\simd_benchmark.c:228:16: note: 	stmt 1 sizes[1] = 262144;
+src\simd_benchmark.c:228:16: note: 	children 000000001b962ca8
+src\simd_benchmark.c:228:16: note: node (constant) 000000001b962ca8 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:228:16: note: 	{ 16384, 262144 }
+src\simd_benchmark.c:228:16: note: ------>vectorizing SLP node starting from: sizes[0] = 16384;
+src\simd_benchmark.c:228:16: note: transform store.
+src\simd_benchmark.c:228:16: note: create vector_type-pointer variable to type: vector(2) long long unsigned int  vectorizing a pointer ref: sizes[0]
+src\simd_benchmark.c:228:16: note: created &sizes[0]
+src\simd_benchmark.c:228:16: note: add new stmt: MEM <vector(2) long long unsigned int> [(long long unsigned int *)&sizes] = { 16384, 262144 };
+src\simd_benchmark.c:228:16: note: vectorizing stmts using SLP.
+src\simd_benchmark.c:229:16: optimized: basic block part vectorized using 32 byte vectors
+src\simd_benchmark.c:229:16: note: Vectorizing SLP tree:
+src\simd_benchmark.c:229:16: note: node 000000001b962d48 (max_nunits=4, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:229:16: note: op template: strides[0] = 1;
+src\simd_benchmark.c:229:16: note: 	stmt 0 strides[0] = 1;
+src\simd_benchmark.c:229:16: note: 	stmt 1 strides[1] = 2;
+src\simd_benchmark.c:229:16: note: 	stmt 2 strides[2] = 4;
+src\simd_benchmark.c:229:16: note: 	stmt 3 strides[3] = 8;
+src\simd_benchmark.c:229:16: note: 	children 000000001b962de8
+src\simd_benchmark.c:229:16: note: node (constant) 000000001b962de8 (max_nunits=1, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:229:16: note: 	{ 1, 2, 4, 8 }
+src\simd_benchmark.c:229:16: note: ------>vectorizing SLP node starting from: strides[0] = 1;
+src\simd_benchmark.c:229:16: note: transform store.
+src\simd_benchmark.c:229:16: note: create vector_type-pointer variable to type: vector(4) long long unsigned int  vectorizing a pointer ref: strides[0]
+src\simd_benchmark.c:229:16: note: created &strides[0]
+src\simd_benchmark.c:229:16: note: add new stmt: MEM <vector(4) long long unsigned int> [(long long unsigned int *)&strides] = { 1, 2, 4, 8 };
+src\simd_benchmark.c:229:16: note: vectorizing stmts using SLP.
+src\simd_benchmark.c:222:16: optimized: basic block part vectorized using 32 byte vectors
+src\simd_benchmark.c:222:16: note: Vectorizing SLP tree:
+src\simd_benchmark.c:222:16: note: node 000000001b962f28 (max_nunits=4, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:222:16: note: op template: sizes[0] = 16384;
+src\simd_benchmark.c:222:16: note: 	stmt 0 sizes[0] = 16384;
+src\simd_benchmark.c:222:16: note: 	stmt 1 sizes[1] = 16387;
+src\simd_benchmark.c:222:16: note: 	stmt 2 sizes[2] = 1048576;
+src\simd_benchmark.c:222:16: note: 	stmt 3 sizes[3] = 1048579;
+src\simd_benchmark.c:222:16: note: 	children 000000001b962fc8
+src\simd_benchmark.c:222:16: note: node (constant) 000000001b962fc8 (max_nunits=1, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:222:16: note: 	{ 16384, 16387, 1048576, 1048579 }
+src\simd_benchmark.c:222:16: note: ------>vectorizing SLP node starting from: sizes[0] = 16384;
+src\simd_benchmark.c:222:16: note: transform store.
+src\simd_benchmark.c:222:16: note: create vector_type-pointer variable to type: vector(4) long long unsigned int  vectorizing a pointer ref: sizes[0]
+src\simd_benchmark.c:222:16: note: created &sizes[0]
+src\simd_benchmark.c:222:16: note: add new stmt: MEM <vector(4) long long unsigned int> [(long long unsigned int *)&sizes] = { 16384, 16387, 1048576, 1048579 };
+src\simd_benchmark.c:222:16: note: vectorizing stmts using SLP.
+src\simd_benchmark.c:222:16: optimized: basic block part vectorized using 16 byte vectors
+src\simd_benchmark.c:222:16: note: Vectorizing SLP tree:
+src\simd_benchmark.c:222:16: note: node 000000001b963068 (max_nunits=2, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:222:16: note: op template: sizes[4] = 4194304;
+src\simd_benchmark.c:222:16: note: 	stmt 0 sizes[4] = 4194304;
+src\simd_benchmark.c:222:16: note: 	stmt 1 sizes[5] = 4194307;
+src\simd_benchmark.c:222:16: note: 	children 000000001b963108
+src\simd_benchmark.c:222:16: note: node (constant) 000000001b963108 (max_nunits=1, refcnt=1) vector(2) long long unsigned int
+src\simd_benchmark.c:222:16: note: 	{ 4194304, 4194307 }
+src\simd_benchmark.c:222:16: note: ------>vectorizing SLP node starting from: sizes[4] = 4194304;
+src\simd_benchmark.c:222:16: note: transform store.
+src\simd_benchmark.c:222:16: note: create vector_type-pointer variable to type: vector(2) long long unsigned int  vectorizing a pointer ref: sizes[4]
+src\simd_benchmark.c:222:16: note: created &sizes[4]
+src\simd_benchmark.c:222:16: note: add new stmt: MEM <vector(2) long long unsigned int> [(long long unsigned int *)&sizes + 32B] = { 4194304, 4194307 };
+src\simd_benchmark.c:222:16: note: vectorizing stmts using SLP.
+src\simd_benchmark.c:217:16: optimized: basic block part vectorized using 32 byte vectors
+src\simd_benchmark.c:217:16: note: Vectorizing SLP tree:
+src\simd_benchmark.c:217:16: note: node 000000001b963248 (max_nunits=4, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:217:16: note: op template: sizes[0] = 256;
+src\simd_benchmark.c:217:16: note: 	stmt 0 sizes[0] = 256;
+src\simd_benchmark.c:217:16: note: 	stmt 1 sizes[1] = 1024;
+src\simd_benchmark.c:217:16: note: 	stmt 2 sizes[2] = 4096;
+src\simd_benchmark.c:217:16: note: 	stmt 3 sizes[3] = 16384;
+src\simd_benchmark.c:217:16: note: 	stmt 4 sizes[4] = 65536;
+src\simd_benchmark.c:217:16: note: 	stmt 5 sizes[5] = 262144;
+src\simd_benchmark.c:217:16: note: 	stmt 6 sizes[6] = 1048576;
+src\simd_benchmark.c:217:16: note: 	stmt 7 sizes[7] = 4194304;
+src\simd_benchmark.c:217:16: note: 	children 000000001b9632e8
+src\simd_benchmark.c:217:16: note: node (constant) 000000001b9632e8 (max_nunits=1, refcnt=1) vector(4) long long unsigned int
+src\simd_benchmark.c:217:16: note: 	{ 256, 1024, 4096, 16384, 65536, 262144, 1048576, 4194304 }
+src\simd_benchmark.c:217:16: note: ------>vectorizing SLP node starting from: sizes[0] = 256;
+src\simd_benchmark.c:217:16: note: transform store.
+src\simd_benchmark.c:217:16: note: create vector_type-pointer variable to type: vector(4) long long unsigned int  vectorizing a pointer ref: sizes[0]
+src\simd_benchmark.c:217:16: note: created &sizes[0]
+src\simd_benchmark.c:217:16: note: add new stmt: MEM <vector(4) long long unsigned int> [(long long unsigned int *)&sizes] = { 256, 1024, 4096, 16384 };
+src\simd_benchmark.c:217:16: note: add new stmt: MEM <vector(4) long long unsigned int> [(long long unsigned int *)&sizes + 32B] = { 65536, 262144, 1048576, 4194304 };
+src\simd_benchmark.c:217:16: note: vectorizing stmts using SLP.
+src\simd_benchmark.c:217:16: note: ***** The result for vector mode V32QI would be the same

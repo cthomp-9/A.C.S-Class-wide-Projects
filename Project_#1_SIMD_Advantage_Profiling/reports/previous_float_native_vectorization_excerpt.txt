@@ -1,0 +1,10 @@
+Original compiler report excerpt from user-uploaded vectorization_report.txt
+
+kernels.c:28:23: optimized:  loop versioned for vectorization because of possible aliasing
+kernels.c:28:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4
+kernels.c:28:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+kernels.c:38:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+kernels.c:38:23: optimized:  loop versioned for vectorization because of possible aliasing
+kernels.c:38:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4
+kernels.c:50:23: optimized: loop vectorized using 32 byte vectors and unroll factor 8
+kernels.c:50:23: optimized: epilogue loop vectorized using 16 byte vectors and unroll factor 4

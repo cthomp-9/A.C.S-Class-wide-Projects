@@ -1,0 +1,1 @@
+gcc -std=c11 -O3 -DDTYPE_DOUBLE=1 src\simd_benchmark.c -o build\float64_default.exe
