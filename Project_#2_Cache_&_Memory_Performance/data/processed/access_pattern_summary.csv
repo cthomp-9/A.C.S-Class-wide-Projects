@@ -1,0 +1,7 @@
+Pattern,Stride_Bytes,Bandwidth_GBps,Latency_ns
+Sequential,64,25.7749,3.7333
+Sequential,256,12.0547,7.5333
+Sequential,1024,9.6499,8.8000
+Random,64,23.6621,29.3000
+Random,256,5.6644,90.1667
+Random,1024,5.5953,91.0667
