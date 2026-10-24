@@ -1,4 +1,6 @@
 # ECSE 4320/6320 Adv. Comp. Sys. Class Wide Projects
 Project #1: SIMD Advantage Profiling Modern CPUs provide SIMD vector units such as SSE, AVX, AVX-512, or NEON that can process multiple data elements per instruction. This project quantifies real-world SIMD speedup for simple numeric kernels and explains when vectorization helps, compresses, or fails. 
+
 Project #2: Cache & Memory Performance Profiling Modern CPUs use a deep hierarchy of L1/L2/L3 caches and DRAM. Each level differs in latency, bandwidth, capacity, and queuing behavior. This project measures the hierarchy and explains how locality, concurrency, cache misses, and TLB misses determine performance. 
+
 Project #3: SSD Performance Profiling Modern SSDs, especially NVMe SSDs, can deliver very high IOPS and throughput when requests are issued concurrently. Like memory, storage exhibits a throughput-latency tradeoff governed by queueing: increasing queue depth improves utilization until a saturation knee, after which latency rises sharply with little additional throughput. 
