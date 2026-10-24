@@ -1,0 +1,111 @@
+47 [18336] INFO perfrun.launcher <> - Launcher main begin
+51 [18336] INFO perfrun.launcher <> - MessageCatalogInit finished
+51 [18336] INFO perfrun.launcher <> - Launcher instance created
+51 [18336] INFO perfrun.launcher <> - argc = 7; cmdline = C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\amplxe-runss.exe --ui-output-format xml --ui-output-fd 912 --option-file C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\config\runsa.options 
+59 [18336] INFO perfrun.launcher <> - New signal handler callback was added
+90 [18336] INFO perfrun.perfcollector <> - SEP tool path: C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\sep.exe
+100 [18336] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+101 [18336] INFO perfrun.launcher <> - create file finder object
+101 [18336] INFO perfrun.launcher <> - create a result directory: pattern = C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long pid = 4294967295
+103 [18336] INFO perfrun.launcher <> - create data directory = C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0
+104 [18336] INFO perfrun.launcher <> - Creating the master collection flag
+109 [18336] INFO perfrun.launcher <> - Done creating the master collection flag
+109 [9920] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+110 [9920] INFO perfrun.sdk <> - Allocating TMU :C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0\systemcollector-15796-CJ-PC.sc
+110 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+111 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+112 [9920] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+112 [9920] INFO perfrun.launcher <> - plugin [etw.kernel] was disabled because it doesn't support the given collection type.
+112 [9920] INFO perfrun.launcher <> - plugin [etw.dx] was disabled because it doesn't support the given collection type.
+112 [9920] INFO perfrun.launcher <> - plugin [etw.wsa] was disabled because it doesn't support the given collection type.
+112 [9920] INFO perfrun.mrte <> - system-wide mode is 0
+112 [9920] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+136 [9920] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0
+136 [9920] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=CJ-PC
+136 [9920] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0
+136 [9920] INFO perfrun.mrte <> - PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\runtime;c:\Users\cthom\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\cthom\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Users\cthom\AppData\Local\Microsoft\WindowsApps;C:\Program Files\WSL\;C:\Users\cthom\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cthom\AppData\Local\Python\bin;C:\msys64\ucrt64\bin
+136 [9920] INFO perfrun.mrte <> - COR_ENABLE_PROFILING=1
+136 [9920] INFO perfrun.mrte <> - COR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+136 [9920] INFO perfrun.mrte <> - COMPLUS_ProfAPI_ProfilerCompatibilitySetting=EnableV2Profiler
+136 [9920] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+136 [9920] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+136 [9920] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+136 [9920] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+136 [9920] INFO perfrun.mrte <> - Data directory: C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0
+136 [9920] INFO perfrun.mrte <> - Mrte plugin is initialized
+136 [9920] INFO perfrun.launcher <> - plugin [emon] was disabled because it doesn't support the given collection type.
+136 [9920] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+136 [9920] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+136 [9920] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\sep.exe" -dry-run -ec CPU_CLK_UNHALTED.THREAD:sa=2496000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2496000,INST_RETIRED.ANY:sample:sa=2496000,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2496000,MEM_INST_RETIRED.ALL_LOADS:sa=100003,MEM_INST_RETIRED.ALL_STORES:sa=100003,MEM_TRANS_RETIRED.LOAD_LATENCY_GT_4:sa=10003,MEM_UOPS_RETIRED.ALL_LOADS:sa=100003,MEM_UOPS_RETIRED.ALL_STORES:sa=100003,MEM_UOPS_RETIRED.LOAD_LATENCY_GT_4:sa=50003,MEM_LOAD_UOPS_RETIRED.DRAM_HIT:sa=100003,CPU_CLK_UNHALTED.THREAD_P,CYCLE_ACTIVITY.CYCLES_MEM_ANY,DTLB_LOAD_MISSES.STLB_HIT:cmask=1,DTLB_LOAD_MISSES.WALK_ACTIVE,DTLB_LOAD_MISSES.WALK_COMPLETED_1G,DTLB_LOAD_MISSES.WALK_COMPLETED_2M_4M,DTLB_LOAD_MISSES.WALK_COMPLETED_4K,DTLB_STORE_MISSES.STLB_HIT:cmask=1,DTLB_STORE_MISSES.WALK_ACTIVE,DTLB_STORE_MISSES.WALK_COMPLETED_1G,DTLB_STORE_MISSES.WALK_COMPLETED_2M_4M,DTLB_STORE_MISSES.WALK_COMPLETED_4K,EXE_ACTIVITY.BOUND_ON_LOADS,EXE_ACTIVITY.BOUND_ON_STORES,FRONTEND_RETIRED.LATENCY_GE_4,IDQ_BUBBLES.CORE,INT_MISC.UOP_DROPPING,L1D_PEND_MISS.FB_FULL,L1D_PEND_MISS.L2_STALLS,L1D_PEND_MISS.PENDING,L2_RQSTS.ALL_RFO,L2_RQSTS.RFO_HIT,LD_BLOCKS.NO_SR,LD_BLOCKS.STORE_FORWARD,MEMORY_ACTIVITY.CYCLES_L1D_MISS,MEMORY_ACTIVITY.STALLS_L1D_MISS,MEMORY_ACTIVITY.STALLS_L2_MISS,MEMORY_ACTIVITY.STALLS_L3_MISS,MEM_INST_RETIRED.LOCK_LOADS,MEM_INST_RETIRED.SPLIT_LOADS,MEM_INST_RETIRED.SPLIT_STORES,MEM_INST_RETIRED.STLB_MISS_LOADS,MEM_INST_RETIRED.STLB_MISS_STORES,MEM_LOAD_COMPLETED.L1_MISS_ANY,MEM_LOAD_L3_HIT_RETIRED.XSNP_FWD,MEM_LOAD_L3_HIT_RETIRED.XSNP_MISS,MEM_LOAD_L3_HIT_RETIRED.XSNP_NO_FWD,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,MEM_STORE_RETIRED.L2_HIT,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:cmask=4,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DEMAND_RFO,TOPDOWN.BACKEND_BOUND_SLOTS,TOPDOWN.MEMORY_BOUND_SLOTS,TOPDOWN.SLOTS,UOPS_RETIRED.SLOTS,XQ.FULL_CYCLES,LD_HEAD.L1_BOUND_AT_RET,LD_HEAD.WCB_FULL,MEM_BOUND_STALLS.LOAD,MEM_BOUND_STALLS.LOAD_DRAM_HIT,MEM_BOUND_STALLS.LOAD_L2_HIT,MEM_BOUND_STALLS.LOAD_LLC_HIT,MEM_SCHEDULER_BLOCK.ALL,MEM_SCHEDULER_BLOCK.ST_BUF,SERIALIZATION.C01_MS_SCB,SERIALIZATION.NON_C01_MS_SCB,TOPDOWN_BE_BOUND.ALL,TOPDOWN_BE_BOUND.ALLOC_RESTRICTIONS,TOPDOWN_BE_BOUND.MEM_SCHEDULER,TOPDOWN_BE_BOUND.SERIALIZATION,TOPDOWN_FE_BOUND.ALL,TOPDOWN_RETIRING.ALL,OCR.DEMAND_DATA_RD.L3_HIT.SNOOP_HITM,OCR.DEMAND_DATA_RD.L3_HIT.SNOOP_HIT_WITH_FWD,OCR.DEMAND_RFO.L3_HIT.SNOOP_HITM,OCR.STREAMING_WR.ANY_RESPONSE,TOPDOWN.SLOTS_P,UNC_M_CAS_COUNT_RD,UNC_M_CAS_COUNT_WR -experimental
+139 [9920] INFO perfrun.sdk <> - runCmd started PID 21448
+290 [9920] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+290 [9920] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+290 [9920] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+290 [9920] INFO perfrun.tpss <> - initialize tpss controller
+290 [9920] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [l0_metrics] was disabled because it doesn't support the given collection type.
+291 [9920] INFO perfrun.launcher <> - plugin [stall_reasons] was disabled because it doesn't support the given collection type.
+291 [18336] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\runtime;c:\Users\cthom\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\cthom\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Users\cthom\AppData\Local\Microsoft\WindowsApps;C:\Program Files\WSL\;C:\Users\cthom\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cthom\AppData\Local\Python\bin;C:\msys64\ucrt64\bin
+291 [18336] INFO perfrun.launcher <> - set environment variable: INTEL_LIBITTNOTIFY64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\runtime\ittnotify_collector.dll
+291 [18336] INFO perfrun.launcher <> - set environment variable: INTEL_ITTNOTIFY_GROUPS = 
+291 [18336] INFO perfrun.launcher <> - set environment variable: INTEL_JIT_PROFILER64 = C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\runtime\ittnotify_collector.dll
+291 [18336] INFO perfrun.launcher <> - set environment variable: CCL_ITT_LEVEL = 1
+291 [18336] INFO perfrun.launcher <> - set environment variable: ENABLE_JITPROFILING = 1
+291 [18336] INFO perfrun.launcher <> - set environment variable: CL_CONFIG_USE_VTUNE = True
+291 [18336] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES = 0
+291 [18336] INFO perfrun.launcher <> - set environment variable: KMP_FORKJOIN_FRAMES_MODE = 0
+291 [18336] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0
+291 [18336] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = CJ-PC
+291 [18336] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0
+291 [18336] INFO perfrun.launcher <> - set environment variable: PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\runtime;C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\runtime;c:\Users\cthom\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\cthom\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Users\cthom\AppData\Local\Microsoft\WindowsApps;C:\Program Files\WSL\;C:\Users\cthom\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cthom\AppData\Local\Python\bin;C:\msys64\ucrt64\bin
+292 [18336] INFO perfrun.launcher <> - set environment variable: COR_ENABLE_PROFILING = 1
+292 [18336] INFO perfrun.launcher <> - set environment variable: COR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+292 [18336] INFO perfrun.launcher <> - set environment variable: COMPLUS_ProfAPI_ProfilerCompatibilitySetting = EnableV2Profiler
+292 [18336] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+292 [18336] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+292 [18336] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64/amplxe_samplingmrte_clrprof_1.0.dll
+292 [18336] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+292 [18336] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+297 [18336] INFO perfrun.sdk <> - IProcessUtil: the given executable 'C:\Users\cthom\Documents\Cache_Memory_Project2\memory_kernel.exe' is valid.
+297 [18336] INFO perfrun.launcher <> - Launcher: command line to start before modification = C:\Users\cthom\Documents\Cache_Memory_Project2\memory_kernel.exe 4 64
+297 [18336] INFO perfrun.launcher <> - Launcher: command line to start after modification = C:\Users\cthom\Documents\Cache_Memory_Project2\memory_kernel.exe 4 64
+297 [18336] INFO perfrun.launcher <> - ProcessCreator object was created
+301 [18336] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+301 [9920] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement started.
+4944 [9920] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement finished.
+4944 [9920] INFO perfrun.itt <> - start itt controller for pid #6884
+4945 [9920] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\sep.exe" -start -experimental -uem timer=10 -em factor=5 -p-state trigger=CPU_CLK_UNHALTED.REF_TSC -out C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0\sep26c0.20261014T203115.920175 -ec INST_RETIRED.ANY:sample:sa=2496000,CPU_CLK_UNHALTED.THREAD:sa=2496000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2496000,MEM_INST_RETIRED.ALL_LOADS:sa=100003,MEM_INST_RETIRED.ALL_STORES:sa=100003,DTLB_LOAD_MISSES.STLB_HIT:cmask=1,DTLB_LOAD_MISSES.WALK_ACTIVE,MEM_TRANS_RETIRED.LOAD_LATENCY_GT_4:sa=10003,CPU_CLK_UNHALTED.DISTRIBUTED:sa=2496000,CPU_CLK_UNHALTED.THREAD_P,CYCLE_ACTIVITY.CYCLES_MEM_ANY,DTLB_LOAD_MISSES.WALK_COMPLETED_1G,DTLB_LOAD_MISSES.WALK_COMPLETED_2M_4M,DTLB_LOAD_MISSES.WALK_COMPLETED_4K,DTLB_STORE_MISSES.STLB_HIT:cmask=1,EXE_ACTIVITY.BOUND_ON_LOADS,EXE_ACTIVITY.BOUND_ON_STORES,FRONTEND_RETIRED.LATENCY_GE_4,IDQ_BUBBLES.CORE,DTLB_STORE_MISSES.WALK_ACTIVE,DTLB_STORE_MISSES.WALK_COMPLETED_1G,DTLB_STORE_MISSES.WALK_COMPLETED_2M_4M,DTLB_STORE_MISSES.WALK_COMPLETED_4K,INT_MISC.UOP_DROPPING,TOPDOWN.BACKEND_BOUND_SLOTS,TOPDOWN.MEMORY_BOUND_SLOTS,UOPS_RETIRED.SLOTS,L1D_PEND_MISS.FB_FULL,L1D_PEND_MISS.L2_STALLS,L1D_PEND_MISS.PENDING,L2_RQSTS.ALL_RFO,TOPDOWN.SLOTS_P,L2_RQSTS.RFO_HIT,LD_BLOCKS.NO_SR,LD_BLOCKS.STORE_FORWARD,MEMORY_ACTIVITY.CYCLES_L1D_MISS,MEMORY_ACTIVITY.STALLS_L1D_MISS,MEMORY_ACTIVITY.STALLS_L2_MISS,MEMORY_ACTIVITY.STALLS_L3_MISS,MEM_INST_RETIRED.LOCK_LOADS,MEM_INST_RETIRED.SPLIT_LOADS,MEM_INST_RETIRED.SPLIT_STORES,MEM_INST_RETIRED.STLB_MISS_LOADS,MEM_INST_RETIRED.STLB_MISS_STORES,MEM_LOAD_COMPLETED.L1_MISS_ANY,MEM_LOAD_L3_HIT_RETIRED.XSNP_FWD,MEM_LOAD_L3_HIT_RETIRED.XSNP_MISS,MEM_LOAD_L3_HIT_RETIRED.XSNP_NO_FWD,MEM_LOAD_RETIRED.FB_HIT,MEM_LOAD_RETIRED.L1_HIT,MEM_LOAD_RETIRED.L1_MISS,MEM_LOAD_RETIRED.L2_HIT,MEM_LOAD_RETIRED.L3_HIT,MEM_LOAD_RETIRED.L3_MISS,MEM_STORE_RETIRED.L2_HIT,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:cmask=4,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DEMAND_RFO,XQ.FULL_CYCLES,OCR.DEMAND_DATA_RD.L3_HIT.SNOOP_HITM,OCR.DEMAND_DATA_RD.L3_HIT.SNOOP_HIT_WITH_FWD,OCR.DEMAND_RFO.L3_HIT.SNOOP_HITM,OCR.STREAMING_WR.ANY_RESPONSE,MEM_UOPS_RETIRED.ALL_LOADS:sa=100003,MEM_UOPS_RETIRED.ALL_STORES:sa=100003,MEM_LOAD_UOPS_RETIRED.DRAM_HIT:sa=100003,LD_HEAD.L1_BOUND_AT_RET,LD_HEAD.WCB_FULL,MEM_BOUND_STALLS.LOAD,MEM_BOUND_STALLS.LOAD_DRAM_HIT,MEM_BOUND_STALLS.LOAD_L2_HIT,MEM_BOUND_STALLS.LOAD_LLC_HIT,MEM_SCHEDULER_BLOCK.ALL,MEM_SCHEDULER_BLOCK.ST_BUF,SERIALIZATION.C01_MS_SCB,SERIALIZATION.NON_C01_MS_SCB,TOPDOWN_BE_BOUND.ALL,TOPDOWN_BE_BOUND.ALLOC_RESTRICTIONS,TOPDOWN_BE_BOUND.MEM_SCHEDULER,TOPDOWN_BE_BOUND.SERIALIZATION,TOPDOWN_FE_BOUND.ALL,TOPDOWN_RETIRING.ALL,UNC_M_CAS_COUNT_RD,UNC_M_CAS_COUNT_WR, -d 0 -uem factor=10
+4948 [9920] INFO perfrun.sdk <> - runCmd started PID 24136
+5449 [18336] INFO perfrun.launcher <> - Launcher: all plugins were started
+5449 [18336] INFO perfrun.launcher <> - DirectoryMonitor object was created
+5450 [18336] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+5450 [18336] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+5450 [18336] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+5450 [18336] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+5458 [18336] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+6469 [18336] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+6476 [9920] INFO perfrun.itt <> - detach itt controller
+6476 [9920] INFO perfrun.itt <> - detach itt controller done
+6476 [9920] INFO perfrun.sdk <> - runCmd: "C:\Program Files (x86)\Intel\oneAPI\vtune\2026.4\bin64\sep.exe" -stop
+6480 [9920] INFO perfrun.sdk <> - runCmd started PID 2108
+7096 [9920] INFO perfrun.sepdk <> - Sampling successfully stopped.
+
+7096 [9920] INFO perfrun.sepdk <> - Waiting for main SEP process (24136) to finish...
+7097 [9920] INFO perfrun.sepdk <> - Main SEP process finished
+7098 [9920] INFO perfrun.sdk <> - De-allocating TMU: C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0\systemcollector-15796-CJ-PC.sc
+7121 [9920] INFO perfrun.system <> - closed the system trace file: C:\Users\cthom\Documents\Cache_Memory_Project2\data\vtune\cache_4MB_long\data.0\systemcollector-15796-CJ-PC.sc
+7121 [18336] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+7121 [18336] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+7121 [18336] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+7121 [18336] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+7121 [18336] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs\perfrun1\launcher\src\command_handler.cpp:226
+7122 [18336] INFO perfrun.launcher <> - Application exit code: 0
+7122 [18336] INFO perfrun.launcher <> - Exit code: 0
